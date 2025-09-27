@@ -408,7 +408,6 @@ class CheckoutController extends Controller
 
         return view('client.order-history', compact('orders', 'menuSections'));
     }
-<<<<<<< HEAD
     public function getCheckoutData()
 {
     // Return current cart data for checkout page
@@ -498,8 +497,6 @@ public function getCartItems()
         ]);
     }
 }
-=======
->>>>>>> 40a619db682e5611abd4ac0e9bc831820cbfa368
 
 }
 

@@ -386,7 +386,6 @@ public function getCartCount()
 
         return response()->json($debug);
     }
-<<<<<<< HEAD
     public function getCartData()
     {
         if (auth()->check()) {
@@ -411,7 +410,4 @@ public function getCartCount()
             'items' => $cartItems
         ]);
     }
-=======
-
->>>>>>> 40a619db682e5611abd4ac0e9bc831820cbfa368
 }
